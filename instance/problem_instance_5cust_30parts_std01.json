@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "description": "Generated instance for MAM-VPRP Deterministic Equivalents (5 Customers, 30 Parts). Times are defined by their MODAL (Base) value and Log-Normal Standard Deviation (std). proc_uncertainty std=0.1"
+  },
+  "printer_params": {
+    "A_max": 130,
+    "alpha": 0.5,
+    "beta": 1.0
+  },
+  "proc_uncertainty": {
+    "base_value": 1.0,
+    "std": 0.1
+  },
+  "customer_data": {
+    "1": {
+      "parts": [
+        "p3",
+        "p7",
+        "p13",
+        "p19",
+        "p20",
+        "p22",
+        "p29"
+      ],
+      "due_date": 1108
+    },
+    "2": {
+      "parts": [
+        "p11",
+        "p28",
+        "p30"
+      ],
+      "due_date": 1361
+    },
+    "3": {
+      "parts": [
+        "p2",
+        "p4",
+        "p6",
+        "p8",
+        "p14",
+        "p15",
+        "p24",
+        "p25",
+        "p27"
+      ],
+      "due_date": 1879
+    },
+    "4": {
+      "parts": [
+        "p9",
+        "p10",
+        "p17",
+        "p18",
+        "p23",
+        "p26"
+      ],
+      "due_date": 1024
+    },
+    "5": {
+      "parts": [
+        "p1",
+        "p5",
+        "p12",
+        "p16",
+        "p21"
+      ],
+      "due_date": 1233
+    }
+  },
+  "part_data": {
+    "p1": {
+      "area": 31,
+      "volume": 120,
+      "height": 24
+    },
+    "p2": {
+      "area": 60,
+      "volume": 137,
+      "height": 16
+    },
+    "p3": {
+      "area": 54,
+      "volume": 105,
+      "height": 10
+    },
+    "p4": {
+      "area": 30,
+      "volume": 112,
+      "height": 12
+    },
+    "p5": {
+      "area": 46,
+      "volume": 75,
+      "height": 19
+    },
+    "p6": {
+      "area": 35,
+      "volume": 103,
+      "height": 10
+    },
+    "p7": {
+      "area": 44,
+      "volume": 87,
+      "height": 25
+    },
+    "p8": {
+      "area": 45,
+      "volume": 73,
+      "height": 16
+    },
+    "p9": {
+      "area": 36,
+      "volume": 140,
+      "height": 24
+    },
+    "p10": {
+      "area": 39,
+      "volume": 102,
+      "height": 20
+    },
+    "p11": {
+      "area": 36,
+      "volume": 114,
+      "height": 13
+    },
+    "p12": {
+      "area": 37,
+      "volume": 131,
+      "height": 10
+    },
+    "p13": {
+      "area": 64,
+      "volume": 107,
+      "height": 23
+    },
+    "p14": {
+      "area": 49,
+      "volume": 121,
+      "height": 16
+    },
+    "p15": {
+      "area": 61,
+      "volume": 104,
+      "height": 21
+    },
+    "p16": {
+      "area": 39,
+      "volume": 105,
+      "height": 11
+    },
+    "p17": {
+      "area": 69,
+      "volume": 117,
+      "height": 22
+    },
+    "p18": {
+      "area": 69,
+      "volume": 107,
+      "height": 16
+    },
+    "p19": {
+      "area": 44,
+      "volume": 77,
+      "height": 16
+    },
+    "p20": {
+      "area": 32,
+      "volume": 104,
+      "height": 20
+    },
+    "p21": {
+      "area": 47,
+      "volume": 108,
+      "height": 17
+    },
+    "p22": {
+      "area": 66,
+      "volume": 116,
+      "height": 20
+    },
+    "p23": {
+      "area": 65,
+      "volume": 94,
+      "height": 18
+    },
+    "p24": {
+      "area": 60,
+      "volume": 127,
+      "height": 14
+    },
+    "p25": {
+      "area": 66,
+      "volume": 92,
+      "height": 20
+    },
+    "p26": {
+      "area": 37,
+      "volume": 122,
+      "height": 19
+    },
+    "p27": {
+      "area": 41,
+      "volume": 83,
+      "height": 22
+    },
+    "p28": {
+      "area": 33,
+      "volume": 114,
+      "height": 19
+    },
+    "p29": {
+      "area": 55,
+      "volume": 114,
+      "height": 14
+    },
+    "p30": {
+      "area": 66,
+      "volume": 133,
+      "height": 8
+    }
+  },
+  "travel_time_params": {
+    "0_1": {
+      "value": 59,
+      "std": 0.22
+    },
+    "0_2": {
+      "value": 28,
+      "std": 0.29
+    },
+    "0_3": {
+      "value": 77,
+      "std": 0.14
+    },
+    "0_4": {
+      "value": 38,
+      "std": 0.23
+    },
+    "0_5": {
+      "value": 104,
+      "std": 0.13
+    },
+    "1_0": {
+      "value": 131,
+      "std": 0.21
+    },
+    "1_2": {
+      "value": 97,
+      "std": 0.28
+    },
+    "1_3": {
+      "value": 126,
+      "std": 0.1
+    },
+    "1_4": {
+      "value": 105,
+      "std": 0.12
+    },
+    "1_5": {
+      "value": 107,
+      "std": 0.21
+    },
+    "2_0": {
+      "value": 88,
+      "std": 0.08
+    },
+    "2_1": {
+      "value": 31,
+      "std": 0.12
+    },
+    "2_3": {
+      "value": 131,
+      "std": 0.27
+    },
+    "2_4": {
+      "value": 109,
+      "std": 0.16
+    },
+    "2_5": {
+      "value": 31,
+      "std": 0.25
+    },
+    "3_0": {
+      "value": 88,
+      "std": 0.16
+    },
+    "3_1": {
+      "value": 41,
+      "std": 0.08
+    },
+    "3_2": {
+      "value": 34,
+      "std": 0.29
+    },
+    "3_4": {
+      "value": 52,
+      "std": 0.2
+    },
+    "3_5": {
+      "value": 129,
+      "std": 0.18
+    },
+    "4_0": {
+      "value": 67,
+      "std": 0.2
+    },
+    "4_1": {
+      "value": 92,
+      "std": 0.19
+    },
+    "4_2": {
+      "value": 147,
+      "std": 0.1
+    },
+    "4_3": {
+      "value": 64,
+      "std": 0.26
+    },
+    "4_5": {
+      "value": 79,
+      "std": 0.15
+    },
+    "5_0": {
+      "value": 148,
+      "std": 0.29
+    },
+    "5_1": {
+      "value": 67,
+      "std": 0.29
+    },
+    "5_2": {
+      "value": 103,
+      "std": 0.21
+    },
+    "5_3": {
+      "value": 81,
+      "std": 0.27
+    },
+    "5_4": {
+      "value": 144,
+      "std": 0.29
+    }
+  }
+}

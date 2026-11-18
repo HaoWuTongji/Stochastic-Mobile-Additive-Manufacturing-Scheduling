@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "description": "Generated instance for MAM-VPRP Deterministic Equivalents (5 Customers, 10 Parts). Times are defined by their MODAL (Base) value and Log-Normal Standard Deviation (std). proc_uncertainty std=0.2"
+  },
+  "printer_params": {
+    "A_max": 130,
+    "alpha": 0.5,
+    "beta": 1.0
+  },
+  "proc_uncertainty": {
+    "base_value": 1.0,
+    "std": 0.2
+  },
+  "customer_data": {
+    "1": {
+      "parts": [
+        "p2",
+        "p3",
+        "p7"
+      ],
+      "due_date": 504
+    },
+    "2": {
+      "parts": [
+        "p1",
+        "p8"
+      ],
+      "due_date": 424
+    },
+    "3": {
+      "parts": [
+        "p6"
+      ],
+      "due_date": 508
+    },
+    "4": {
+      "parts": [
+        "p10"
+      ],
+      "due_date": 397
+    },
+    "5": {
+      "parts": [
+        "p4",
+        "p5",
+        "p9"
+      ],
+      "due_date": 409
+    }
+  },
+  "part_data": {
+    "p1": {
+      "area": 43,
+      "volume": 79,
+      "height": 17
+    },
+    "p2": {
+      "area": 70,
+      "volume": 83,
+      "height": 12
+    },
+    "p3": {
+      "area": 45,
+      "volume": 94,
+      "height": 19
+    },
+    "p4": {
+      "area": 39,
+      "volume": 97,
+      "height": 14
+    },
+    "p5": {
+      "area": 44,
+      "volume": 124,
+      "height": 22
+    },
+    "p6": {
+      "area": 37,
+      "volume": 73,
+      "height": 25
+    },
+    "p7": {
+      "area": 40,
+      "volume": 86,
+      "height": 15
+    },
+    "p8": {
+      "area": 34,
+      "volume": 120,
+      "height": 20
+    },
+    "p9": {
+      "area": 51,
+      "volume": 110,
+      "height": 21
+    },
+    "p10": {
+      "area": 34,
+      "volume": 120,
+      "height": 26
+    }
+  },
+  "travel_time_params": {
+    "0_1": {
+      "value": 65,
+      "std": 0.25
+    },
+    "0_2": {
+      "value": 109,
+      "std": 0.22
+    },
+    "0_3": {
+      "value": 67,
+      "std": 0.24
+    },
+    "0_4": {
+      "value": 108,
+      "std": 0.19
+    },
+    "0_5": {
+      "value": 127,
+      "std": 0.16
+    },
+    "1_0": {
+      "value": 41,
+      "std": 0.27
+    },
+    "1_2": {
+      "value": 74,
+      "std": 0.29
+    },
+    "1_3": {
+      "value": 39,
+      "std": 0.07
+    },
+    "1_4": {
+      "value": 27,
+      "std": 0.23
+    },
+    "1_5": {
+      "value": 129,
+      "std": 0.13
+    },
+    "2_0": {
+      "value": 135,
+      "std": 0.05
+    },
+    "2_1": {
+      "value": 109,
+      "std": 0.19
+    },
+    "2_3": {
+      "value": 59,
+      "std": 0.06
+    },
+    "2_4": {
+      "value": 92,
+      "std": 0.07
+    },
+    "2_5": {
+      "value": 45,
+      "std": 0.21
+    },
+    "3_0": {
+      "value": 119,
+      "std": 0.18
+    },
+    "3_1": {
+      "value": 45,
+      "std": 0.25
+    },
+    "3_2": {
+      "value": 25,
+      "std": 0.22
+    },
+    "3_4": {
+      "value": 122,
+      "std": 0.19
+    },
+    "3_5": {
+      "value": 81,
+      "std": 0.17
+    },
+    "4_0": {
+      "value": 119,
+      "std": 0.14
+    },
+    "4_1": {
+      "value": 27,
+      "std": 0.1
+    },
+    "4_2": {
+      "value": 114,
+      "std": 0.19
+    },
+    "4_3": {
+      "value": 140,
+      "std": 0.25
+    },
+    "4_5": {
+      "value": 127,
+      "std": 0.23
+    },
+    "5_0": {
+      "value": 127,
+      "std": 0.27
+    },
+    "5_1": {
+      "value": 103,
+      "std": 0.09
+    },
+    "5_2": {
+      "value": 146,
+      "std": 0.13
+    },
+    "5_3": {
+      "value": 135,
+      "std": 0.24
+    },
+    "5_4": {
+      "value": 41,
+      "std": 0.2
+    }
+  }
+}

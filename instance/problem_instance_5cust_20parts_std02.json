@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "description": "Generated instance for MAM-VPRP Deterministic Equivalents (5 Customers, 20 Parts). Times are defined by their MODAL (Base) value and Log-Normal Standard Deviation (std). proc_uncertainty std=0.2"
+  },
+  "printer_params": {
+    "A_max": 130,
+    "alpha": 0.5,
+    "beta": 1.0
+  },
+  "proc_uncertainty": {
+    "base_value": 1.0,
+    "std": 0.2
+  },
+  "customer_data": {
+    "1": {
+      "parts": [
+        "p1",
+        "p8"
+      ],
+      "due_date": 742
+    },
+    "2": {
+      "parts": [
+        "p2",
+        "p7",
+        "p9",
+        "p15",
+        "p20"
+      ],
+      "due_date": 420
+    },
+    "3": {
+      "parts": [
+        "p3",
+        "p4",
+        "p6",
+        "p10",
+        "p17",
+        "p19"
+      ],
+      "due_date": 486
+    },
+    "4": {
+      "parts": [
+        "p5",
+        "p12",
+        "p13",
+        "p16",
+        "p18"
+      ],
+      "due_date": 425
+    },
+    "5": {
+      "parts": [
+        "p11",
+        "p14"
+      ],
+      "due_date": 909
+    }
+  },
+  "part_data": {
+    "p1": {
+      "area": 62,
+      "volume": 115,
+      "height": 21
+    },
+    "p2": {
+      "area": 46,
+      "volume": 125,
+      "height": 26
+    },
+    "p3": {
+      "area": 35,
+      "volume": 106,
+      "height": 13
+    },
+    "p4": {
+      "area": 67,
+      "volume": 140,
+      "height": 23
+    },
+    "p5": {
+      "area": 30,
+      "volume": 98,
+      "height": 19
+    },
+    "p6": {
+      "area": 45,
+      "volume": 77,
+      "height": 20
+    },
+    "p7": {
+      "area": 60,
+      "volume": 123,
+      "height": 26
+    },
+    "p8": {
+      "area": 52,
+      "volume": 134,
+      "height": 8
+    },
+    "p9": {
+      "area": 55,
+      "volume": 113,
+      "height": 18
+    },
+    "p10": {
+      "area": 60,
+      "volume": 77,
+      "height": 9
+    },
+    "p11": {
+      "area": 40,
+      "volume": 136,
+      "height": 12
+    },
+    "p12": {
+      "area": 67,
+      "volume": 74,
+      "height": 12
+    },
+    "p13": {
+      "area": 58,
+      "volume": 105,
+      "height": 25
+    },
+    "p14": {
+      "area": 34,
+      "volume": 86,
+      "height": 12
+    },
+    "p15": {
+      "area": 43,
+      "volume": 96,
+      "height": 25
+    },
+    "p16": {
+      "area": 44,
+      "volume": 117,
+      "height": 10
+    },
+    "p17": {
+      "area": 58,
+      "volume": 133,
+      "height": 11
+    },
+    "p18": {
+      "area": 59,
+      "volume": 136,
+      "height": 12
+    },
+    "p19": {
+      "area": 62,
+      "volume": 86,
+      "height": 16
+    },
+    "p20": {
+      "area": 62,
+      "volume": 110,
+      "height": 24
+    }
+  },
+  "travel_time_params": {
+    "0_1": {
+      "value": 132,
+      "std": 0.17
+    },
+    "0_2": {
+      "value": 150,
+      "std": 0.22
+    },
+    "0_3": {
+      "value": 101,
+      "std": 0.3
+    },
+    "0_4": {
+      "value": 137,
+      "std": 0.24
+    },
+    "0_5": {
+      "value": 83,
+      "std": 0.27
+    },
+    "1_0": {
+      "value": 122,
+      "std": 0.06
+    },
+    "1_2": {
+      "value": 24,
+      "std": 0.18
+    },
+    "1_3": {
+      "value": 92,
+      "std": 0.22
+    },
+    "1_4": {
+      "value": 88,
+      "std": 0.27
+    },
+    "1_5": {
+      "value": 82,
+      "std": 0.19
+    },
+    "2_0": {
+      "value": 59,
+      "std": 0.07
+    },
+    "2_1": {
+      "value": 22,
+      "std": 0.28
+    },
+    "2_3": {
+      "value": 31,
+      "std": 0.11
+    },
+    "2_4": {
+      "value": 62,
+      "std": 0.18
+    },
+    "2_5": {
+      "value": 46,
+      "std": 0.22
+    },
+    "3_0": {
+      "value": 130,
+      "std": 0.2
+    },
+    "3_1": {
+      "value": 135,
+      "std": 0.18
+    },
+    "3_2": {
+      "value": 141,
+      "std": 0.28
+    },
+    "3_4": {
+      "value": 20,
+      "std": 0.29
+    },
+    "3_5": {
+      "value": 67,
+      "std": 0.22
+    },
+    "4_0": {
+      "value": 103,
+      "std": 0.18
+    },
+    "4_1": {
+      "value": 23,
+      "std": 0.22
+    },
+    "4_2": {
+      "value": 78,
+      "std": 0.2
+    },
+    "4_3": {
+      "value": 147,
+      "std": 0.27
+    },
+    "4_5": {
+      "value": 51,
+      "std": 0.15
+    },
+    "5_0": {
+      "value": 104,
+      "std": 0.12
+    },
+    "5_1": {
+      "value": 82,
+      "std": 0.11
+    },
+    "5_2": {
+      "value": 104,
+      "std": 0.3
+    },
+    "5_3": {
+      "value": 90,
+      "std": 0.15
+    },
+    "5_4": {
+      "value": 28,
+      "std": 0.2
+    }
+  }
+}
